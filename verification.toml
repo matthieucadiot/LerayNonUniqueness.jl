@@ -1,0 +1,357 @@
+all_checks_passed = true
+completed_utc = "2026-11-26T08:11:08.569"
+fixed_weights_sha256 = "be96ac3dab53b71980614531610f57b5a83e7872c56245ead678f1e6c0b2134d"
+julia = "1.12.3"
+package_sha256 = "3806ffc3ac38a5eda36baad62179e8c483f2b41eadfe325b7b4ebe10ea49c95a"
+run_id = "2d9cec66690641fa88a3aac70215c5cb"
+schema = "leray-clean-certification-v1"
+table2_data_sha256 = "74b5ca317c03b35a3bdc6a9ac540b34cc6a89e9806a539d1e0053a93e3db5af6"
+table2_sha256 = "a56043e142be2e34012170af1750d05081766184cf7e8a9af07e339044bee205"
+table4_sha256 = "0f58c55af4044334a84ea69a9c6df022766328587f2edd2c90d8dcefd8cc90e4"
+
+[closure.even_h_image]
+exact_target = "3//10000000"
+exact_value = "36150009//125000000000000"
+
+[closure.even_mu_image]
+exact_target = "3//500000"
+exact_value = "84350021//15625000000000"
+
+[closure.even_product_Lipschitz]
+exact_target = "1//1"
+exact_value = "225003//12500000"
+
+[closure.odd_Lipschitz]
+exact_target = "1//1"
+exact_value = "41//1562500000"
+
+[closure.odd_image]
+exact_target = "1//1000000000"
+exact_value = "3075000041//3125000000000000000"
+
+[closure.odd_inverse_Z]
+exact_target = "164//1"
+exact_value = "32500//199"
+
+[closure.odd_inverse_Z0]
+exact_target = "164//1"
+exact_value = "16250926449//99500000"
+
+[proposition]
+bounds_sha256 = "82ac5e4475c3d351fb2d7b82c8f80992d161751759ed6fc140864ccf62f2485d"
+box_columns = 2482
+boxes_sha256 = "de739cc80b1ef6299f6b8166b59ce19117df7ca168842f61394abccb8f3b45d6"
+farfield_columns = 804
+farfield_rows = 575
+spectral_gaps_lower = [12.545550022403486, 1.7237277896343428, 16.63076360128403, 1.6562716617767574, 1.3053284653777177, 0.8540323592019082, 12.37746086524764, 1.7237277896343428, 15.715128288357052, 1.6239368920306894, 1.0866964506830514, 0.6501580511765236, 11.20209989648035, 11.211065142491636, 0.037839120972183934]
+support_columns = 2521
+support_rows = 321
+
+[table2]
+all_checks_passed = true
+eigenfunctions_sha256 = "9729d6e67082ab4cb5cb59afd1edc7d6066b9a46254a8946ba73272b5a4846d3"
+fixed_coefficients_sha256 = "be96ac3dab53b71980614531610f57b5a83e7872c56245ead678f1e6c0b2134d"
+identity = "a8917ed6757a57d8081cf49b8b0a25b657bd8bbc07440fefe174545520dc268d"
+physical_passed = true
+residual_sha256 = "c24bee0a5d2d331e037d9ca49c0b4951168715578635ec80ee94822febe194dc"
+run_id = "2d9cec66690641fa88a3aac70215c5cb"
+schema = "clean-table2-v1"
+scope_sha256 = "0837f60b3181ba9da9da12f1025f569c24cccccd329edda9bb6d21521c7d9159"
+table2_data_sha256 = "74b5ca317c03b35a3bdc6a9ac540b34cc6a89e9806a539d1e0053a93e3db5af6"
+weights_sha256 = "5b3f70f66a57ce1ad934fe1b9bdf5a8a0130d4dbe19f9cb6b2034af4d309801b"
+
+    [table2.coverage]
+    columns = 67682
+    evaluated_cells = 57901397
+    parent_cells = 57725138
+    selected_columns = 4289
+
+    [table2.even.q]
+    passed = true
+    target_lower = 34.0
+    upper = 33.79135747156196
+
+    [table2.even.q2]
+    passed = true
+    target_lower = 61.0
+    upper = 60.207066124883575
+
+    [table2.even.qe]
+    passed = true
+    target_lower = 0.0009999999999999998
+    upper = 7.13001590127306e-5
+
+    [table2.even."Φq"]
+    passed = true
+    target_lower = 146.0
+    upper = 141.78510801338547
+
+    [table2.odd.q]
+    passed = true
+    target_lower = 19.2
+    upper = 18.87677124186392
+
+    [table2.odd.q2]
+    passed = true
+    target_lower = 19.86
+    upper = 19.585183256735863
+
+    [table2.odd.qe]
+    passed = true
+    target_lower = 0.0004999999999999999
+    upper = 0.00047899738746523063
+
+    [table2.odd."Φq"]
+    passed = true
+    target_lower = 15.25
+    upper = 15.243722718214118
+
+    [table2.physical.even]
+    individual_B_squared_upper = [2.1225721956721895, 2.01695765790184, 1.8175450827915485, 1.5591806179044851, 1.2370834636533867, 0.851132868586614, 0.7067462267190583, 0.5940615298714185, 0.4212340720809656, 0.4013980283127258, 0.17387952209421112, 0.05900854690474239, 2.6769825141846524, 2.0685404975083386, 1.6770702464979934, 1.1340149965585251, 0.6843315847644377, 0.4876008010633511, 0.26519985698086895, 0.1852878931227697, 0.12462786669266918, 0.12165786677078905, 0.03782163269804996, 10.586761235277786, 4.299311582255034, 0.924221755377839, 0.356544044856238, 0.14031940193663117, 0.03321248224191935, 20.47639294859872, 1.2820322107695734, 0.6843348942341473]
+    sum_B_squared_upper = 60.207066124883575
+    sum_B_upper = 33.79135747156196
+
+    [table2.physical.odd]
+    individual_B_squared_upper = [1.7257749835983889, 1.4388852610128882, 1.1833240018914284, 0.9197080894774642, 0.6005596093836699, 0.4332182231729755, 0.3296973774852465, 0.2172747854715682, 0.15344465134170435, 0.008215266750968587, 3.1768700722906402, 2.559335073290851, 2.002524893472678, 1.5496305854664518, 1.002160329656936, 0.687359902106141, 0.4730389046650039, 0.39529647637036486, 0.2477589368042611, 0.12541219388126995, 0.04299425161419935, 0.13657158960214452, 0.05273320595400298, 0.003438130281049094, 0.10120860199274388, 0.018747859700792093]
+    sum_B_squared_upper = 19.585183256735856
+    sum_B_upper = 18.87677124186392
+
+    [table2.scalar_tail_upper]
+    24 = 7.758347838482484
+    25 = 0.6733140868507344
+    26 = 0.001375873977259084
+    27 = 0.0006428175075857814
+    28 = 3.355688491283734e-5
+    29 = 7.592691130233833e-6
+    30 = 9.582865530753521
+    31 = 0.050114698316001856
+    32 = 0.3432707490076046
+
+[table4]
+all_checks_passed = true
+format = "clean_table4_v1"
+identity = "6c57106e0ce2527c5163aefb4f37dca8b537298069899be085e41d16e5178b6a"
+matrix_count = 15
+run_id = "2d9cec66690641fa88a3aac70215c5cb"
+selected_even = 32
+selected_odd = 26
+
+    [table4.rows.even_T0U0]
+    complementary_gap_lower = 12.37746086524764
+    directions = 203
+    file = "matrices/even_T0U0.jld2"
+    loss_upper = 1.8369871997153124e-12
+    minimum_margin_lower = 0.0009268380080792449
+    norm_upper = 11.738276189483145
+    orthogonality_upper = 5.2165160939081006e-14
+    radial_parents = 163
+    rectangles = 32130
+    result_sha256 = "f95070a3f3f3681b37f3ec71a9fd45d1380bd3563bad0532e4e7c9b0ef501008"
+    selected = 12
+    verified = true
+
+    [table4.rows.even_T0U1]
+    complementary_gap_lower = 1.7237277896343428
+    directions = 70
+    file = "matrices/even_T0U1.jld2"
+    loss_upper = 1.3434594722028488e-13
+    minimum_margin_lower = 0.00272353774282003
+    norm_upper = 1.76125819183533
+    orthogonality_upper = 2.542613150891652e-14
+    radial_parents = 163
+    rectangles = 42000
+    result_sha256 = "bc428c2bab561bdd4f405737127544ab4b4c215de9ed3f76ed08028a1d1218f6"
+    selected = 0
+    verified = true
+
+    [table4.rows.even_T1U0]
+    complementary_gap_lower = 15.715128288357052
+    directions = 247
+    file = "matrices/even_T1U0.jld2"
+    loss_upper = 3.128233808390118e-12
+    minimum_margin_lower = 0.0007477703260867774
+    norm_upper = 15.074755646159318
+    orthogonality_upper = 6.917157579681047e-14
+    radial_parents = 196
+    rectangles = 37740
+    result_sha256 = "a003330a8dd29b14bf4e47db53c2518f25ba668bd7aa1f5ddacf1784fa6eeccd"
+    selected = 9
+    verified = true
+
+    [table4.rows.even_T1U1]
+    complementary_gap_lower = 1.6239368920306894
+    directions = 68
+    file = "matrices/even_T1U1.jld2"
+    loss_upper = 1.1643370286821664e-13
+    minimum_margin_lower = 0.0009999892306113145
+    norm_upper = 1.6578873514799481
+    orthogonality_upper = 2.3410055125132522e-14
+    radial_parents = 196
+    rectangles = 27750
+    result_sha256 = "9062b8f2ef36b7af8c487a7422ad64218393174bf636e8c4a13f470c856774e1"
+    selected = 2
+    verified = true
+
+    [table4.rows.even_T2U0]
+    complementary_gap_lower = 1.0866964506830514
+    directions = 17
+    file = "matrices/even_T2U0.jld2"
+    loss_upper = 1.2833540909269725e-14
+    minimum_margin_lower = 0.015500745257934103
+    norm_upper = 0.9904854790613646
+    orthogonality_upper = 4.3189396111192706e-15
+    radial_parents = 142
+    rectangles = 28560
+    result_sha256 = "9ebde34c299f0b137db8de3f75cad0cb91597b9857986664c17cf289e411e83e"
+    selected = 0
+    verified = true
+
+    [table4.rows.even_T2U1]
+    complementary_gap_lower = 0.6501580511765236
+    directions = 28
+    file = "matrices/even_T2U1.jld2"
+    loss_upper = 1.9528365681811086e-14
+    minimum_margin_lower = 0.011328990424245903
+    norm_upper = 0.7285580738472553
+    orthogonality_upper = 8.93471016372964e-15
+    radial_parents = 142
+    rectangles = 21000
+    result_sha256 = "1998b4ecdf616fc7fbab316587f39dbb103e640b2a94bf16dab607469efe29a6"
+    selected = 0
+    verified = true
+
+    [table4.rows.odd_T0U0]
+    complementary_gap_lower = 12.545550022403486
+    directions = 205
+    file = "matrices/odd_T0U0.jld2"
+    loss_upper = 1.8408333810821394e-12
+    minimum_margin_lower = 2.178927144241838e-6
+    norm_upper = 11.891141948562476
+    orthogonality_upper = 5.160237172188154e-14
+    radial_parents = 535
+    rectangles = 184488
+    result_sha256 = "d8be5ea23952f9bef18a1d811440f648924f34186dc95a1bdff5cd732bdb1978"
+    selected = 9
+    verified = true
+
+    [table4.rows.odd_T0U1]
+    complementary_gap_lower = 1.7237277896343428
+    directions = 70
+    file = "matrices/odd_T0U1.jld2"
+    loss_upper = 1.3303226676579905e-13
+    minimum_margin_lower = 0.0006573642386981209
+    norm_upper = 1.748300526716953
+    orthogonality_upper = 2.5364111172124726e-14
+    radial_parents = 163
+    rectangles = 42000
+    result_sha256 = "8139227f847cdae36e44ae9467af9c157b4a648d53ae29b990814ee829f15acc"
+    selected = 1
+    verified = true
+
+    [table4.rows.odd_T1U0]
+    complementary_gap_lower = 16.63076360128403
+    directions = 262
+    file = "matrices/odd_T1U0.jld2"
+    loss_upper = 3.4787158742927064e-12
+    minimum_margin_lower = 2.589478361441494e-5
+    norm_upper = 15.72929692526036
+    orthogonality_upper = 7.372052060606484e-14
+    radial_parents = 355
+    rectangles = 122400
+    result_sha256 = "8e26b72e86c0edcef1a9610670c693dfa51872fc8fc7842420cf2e9aea722b55"
+    selected = 11
+    verified = true
+
+    [table4.rows.odd_T1U1]
+    complementary_gap_lower = 1.6562716617767574
+    directions = 70
+    file = "matrices/odd_T1U1.jld2"
+    loss_upper = 1.260205987555208e-13
+    minimum_margin_lower = 4.719389541581968e-6
+    norm_upper = 1.7358914274984856
+    orthogonality_upper = 2.4199017050492873e-14
+    radial_parents = 355
+    rectangles = 47625
+    result_sha256 = "5ac0145f96dd21f5a6ea14cc59f43e75183ea4aa771a09cfad0444e34efed0a9"
+    selected = 3
+    verified = true
+
+    [table4.rows.odd_T2U0]
+    complementary_gap_lower = 1.3053284653777177
+    directions = 21
+    file = "matrices/odd_T2U0.jld2"
+    loss_upper = 2.0657059134020945e-14
+    minimum_margin_lower = 5.619497795923689e-5
+    norm_upper = 1.1621611148328248
+    orthogonality_upper = 5.924898269374188e-15
+    radial_parents = 274
+    rectangles = 51000
+    result_sha256 = "a0f890543967079248890a66d8f0c638b49782071c6fe46440ebc8eea63eef46"
+    selected = 1
+    verified = true
+
+    [table4.rows.odd_T2U1]
+    complementary_gap_lower = 0.8540323592019082
+    directions = 34
+    file = "matrices/odd_T2U1.jld2"
+    loss_upper = 2.5209154616530623e-14
+    minimum_margin_lower = 2.9706493765168512e-5
+    norm_upper = 0.8188646097169262
+    orthogonality_upper = 1.0261832590064426e-14
+    radial_parents = 274
+    rectangles = 37500
+    result_sha256 = "c3fc1bc0779e80fed02a9c5ede5d06be2107aeadb6d8340ccb046a63bd239786"
+    selected = 1
+    verified = true
+
+    [table4.rows.scalar_S0V0]
+    complementary_gap_lower = 11.20209989648035
+    directions = 563
+    file = "matrices/scalar_S0V0.jld2"
+    loss_upper = 5.352903586423386e-13
+    minimum_margin_lower = 0.0009389279270156092
+    norm_upper = 2.123973514363564
+    orthogonality_upper = 8.400769517171296e-14
+    radial_parents = 171
+    rectangles = 51614
+    result_sha256 = "dfe827e6a8687f87233f719eb83c970d1a79b9cd06b7cdfd7e690856b83afed0"
+    selected = 6
+    verified = true
+
+    [table4.rows.scalar_S1V0]
+    complementary_gap_lower = 11.211065142491636
+    directions = 532
+    file = "matrices/scalar_S1V0.jld2"
+    loss_upper = 4.937075525460106e-13
+    minimum_margin_lower = 0.00027754136812845466
+    norm_upper = 2.1121049931550555
+    orthogonality_upper = 7.791714176868196e-14
+    radial_parents = 196
+    rectangles = 58164
+    result_sha256 = "cbff565576070c37c4ff0f38c50b9e13a446b9cf236bd12b682af339353987ad"
+    selected = 3
+    verified = true
+
+    [table4.rows.scalar_S2V1]
+    complementary_gap_lower = 0.037839120972183934
+    directions = 79
+    file = "matrices/scalar_S2V1.jld2"
+    loss_upper = 5.534155162170798e-16
+    minimum_margin_lower = 2.264079231815631e-6
+    norm_upper = 0.00690497431299168
+    orthogonality_upper = 2.6715789281350924e-14
+    radial_parents = 230
+    rectangles = 80896
+    result_sha256 = "3877defc9a3eca95d9f95a7b4308c7667407418541f3548696996318adcceb91"
+    selected = 0
+    verified = true
+
+[upstream]
+constant_modes = 9
+eigenfunctions_sha256 = "9729d6e67082ab4cb5cb59afd1edc7d6066b9a46254a8946ba73272b5a4846d3"
+even_residual_upper_exact = "126799723512387456191915676413577958605//93536104789177786765035829293842113257979682750464"
+nonconstant_modes = 207
+odd_residual_upper_exact = "264367132108881376267827806271438929051//46768052394588893382517914646921056628989841375232"
+profile_columns = 804
+profile_rows = 575
+residual_sha256 = "c24bee0a5d2d331e037d9ca49c0b4951168715578635ec80ee94822febe194dc"
